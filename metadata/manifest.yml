@@ -1,17 +1,17 @@
 ---
-Name: mongodb
-Cartridge-Short-Name: MONGODB
+Name: mongodb26
+Cartridge-Short-Name: MONGODB26
 Architecture: noarch
-Display-Name: MongoDB 2.4
+Display-Name: MongoDB 2.6
 Description: MongoDB is a scalable, high-performance, open source NoSQL database.
-Version: '2.4'
+Version: '2.6'
 Versions:
-- '2.4'
+- '2.6'
 Cartridge-Version: 0.2.11
 Compatible-Versions:
 - 0.2.9
 - 0.2.10
-Cartridge-Vendor: redhat
+Cartridge-Vendor: timg
 License: ASL 2.0
 Vendor: 10gen
 Categories:
@@ -41,6 +41,7 @@ Suggests:
 Provides:
 - mongodb-2.2
 - mongodb-2.4
+- mongodb-2.6
 - mongodb
 - mongodb-basic-mode
 Publishes:
