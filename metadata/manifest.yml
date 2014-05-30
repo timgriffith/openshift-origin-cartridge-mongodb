@@ -1,13 +1,13 @@
 ---
-Name: mongodb26
-Cartridge-Short-Name: MONGODB26
+Name: mongodb
+Cartridge-Short-Name: MONGODBTG
 Architecture: noarch
-Display-Name: MongoDB 2.6
+Display-Name: MongoDBTG 2.4
 Description: MongoDB is a scalable, high-performance, open source NoSQL database.
-Version: '2.6'
+Version: '2.4'
 Source-Url: https://github.com/timgriffith/openshift-origin-cartridge-mongodb.git
 Versions:
-- '2.6'
+- '2.4'
 Cartridge-Version: 0.2.11
 Compatible-Versions:
 - 0.2.9
@@ -42,7 +42,6 @@ Suggests:
 Provides:
 - mongodb-2.2
 - mongodb-2.4
-- mongodb-2.6
 - mongodb
 - mongodb-basic-mode
 Publishes:
