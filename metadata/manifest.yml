@@ -5,6 +5,7 @@ Architecture: noarch
 Display-Name: MongoDB 2.6
 Description: MongoDB is a scalable, high-performance, open source NoSQL database.
 Version: '2.6'
+Source-Url: https://github.com/timgriffith/openshift-origin-cartridge-mongodb.git
 Versions:
 - '2.6'
 Cartridge-Version: 0.2.11
